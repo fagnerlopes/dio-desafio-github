@@ -1,6 +1,9 @@
-# Anotações sobre flexbox
+# Anotações sobre CSS Flexbox
+Flexbo vem pra resolver o problema de alinhamento dos componentes de um layout de um modo nativo e responsivo.
 
 ### Flex Container
+É a tag que envolve os itens. Pode ser aplicada a qualquer tag do HTML que enha itens filhos.
+
 * **display: flex**: é a propriedade inicializadora do sistema flexbox e atribuída ao container;
 * **flex-direction**: indica se a direção dos itens filhos do container que pode ser linha (row) ou coluna (column);
 * **flex-wrap**: indica se que haverá quebra de linha;
@@ -20,3 +23,12 @@ De qualquer forma, os itens de um **flex container** possuem propriedades espec�
 * **flex**: trata-se de um atalho para as 3 propriedades acima;
 * **order**: ordem de distribuição;
 * **align-self**: alinhamento de um item específico;
+
+#### Dicas
+1. Quando o item contém um valor definido para flex-grow, o align-basis não terá efeito.
+
+Para esse curso foi utilizado:
+* VSCODE
+    * [Live HTML Previewer](https://marketplace.visualstudio.com/items?itemName=hdg.live-html-previewer)
+    * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+
